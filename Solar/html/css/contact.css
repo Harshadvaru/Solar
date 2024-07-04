@@ -1,0 +1,451 @@
+body{
+    width: auto;
+    height: 100%;
+    /* margin: 0%;
+    padding: 0%; */
+}
+
+@font-face {
+    font-family: 'Didact Gothic';
+    src:url('/html/font/Didact_Gothic/DidactGothic-Regular.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/html/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');     
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat1';
+    src: url('/html/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');     
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 10px 0;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 122px;
+    height: 92px;
+}
+
+.logo:hover {
+    color: orange; /* Change this to your desired hover color */
+}
+
+.nav-list {
+    font-family: 'Didact Gothic';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 0;
+    transition: 0.3s ease all;
+}
+
+.nav-list li a:hover {
+    color: orange; /* Change this to your desired hover color */
+}
+
+.dropdown {
+    position: relative;
+    z-index: 2;
+}
+
+.dropdown-toggle {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 100%;
+    /* left: 0; */
+    width: 200px;
+    padding: 10PX;
+    display: none;
+    list-style: none;
+}
+
+.dropdown-menu li {
+    margin: 0;
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease all;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.Appointment{
+/* border: 1px solid #000; */
+    background-color: #ff7a3d;
+    color: white;
+    height: 20px;
+    margin: 0px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Montserrat1';
+    cursor: pointer;
+}
+
+.Appointment a{
+    text-decoration: none;
+    color: white;
+}
+
+.Appointment a:hover {
+    color: rgb(44, 44, 44); /* Change this to your desired hover color */
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    /* z-index: -2; */
+}
+
+.background {
+    background-image: url('/html/img/Group\ 287.png');
+    /* background-image: url('/html/img/Frame\ 4.png') ; */
+    height: 400px;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text-container {
+    text-align: left;
+    color: white;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 1111px;
+    margin: 0 auto;
+}
+
+.text-container h1 {
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 70px;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.line3{
+    border-top: 3px solid #FF7111;
+    width: 100px;
+}
+
+.text-container h1 span{
+    color: #FF7111;
+}
+
+.elementaor{
+    position: fixed;
+    right: -84px;
+    bottom: 50%;
+    transform: rotate(90deg);
+    BACKGROUND: #ff7a3d;
+    font-size: 26px;
+    padding: 10px 11px;
+    list-style: none;
+}
+
+.elementaor .text p{
+    color: white;
+    /* padding-top: 50px; */
+    align-items: baseline;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+.box{
+    margin: 0 auto;
+    margin-bottom: -290px;
+    margin-left: 620px;
+}
+
+.box1{
+    background-color: #ff7a3d;
+    width: 480px;
+    padding: 20px;
+    border-radius: 6px ;
+}
+
+.box1 h1{
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 62.5px;
+    text-align: left;
+}
+
+.box1 h3{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.container2{
+    background-color:  #1E1810;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    z-index: -2;
+}
+
+.container3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+    /* z-index: -2; */
+}
+
+
+.background1{
+    background-image: url('/html/img/Frame\ 9.png');
+    /* background-image: url('/html/img/Frame\ 4.png') ; */
+    /* height: 400px; */
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #373d42;
+    padding-bottom: 100PX;
+    /* opacity: 0.67; */
+}
+
+
+.contact-form {
+    background-color: #3e3028;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-top: -100px;
+    /* height: 600px; */
+}
+
+.form{
+    text-align: justify;
+}
+
+.contact-form h1 {
+    color: #f36f21;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    margin-top: 0px;
+    font-family: 'Montserrat';
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    /* border-radius: 5px; */
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #ccc;
+    font-family: 'Montserrat1';
+}
+
+.contact-form button {
+    width: 40%;
+    padding: 10px;
+    background-color: #f36f21;
+    border: none;
+    /* border-radius: 5px; */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: flex-start;
+    font-family: 'Montserrat1';
+}
+
+.contact-form button:hover {
+    background-color: #d65a19;
+}
+
+.mapbox {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    z-index: -2;
+}
+  
+.mapbox figure{ 
+    height: 450px;
+    margin: 0px; 
+    cursor: pointer;
+}
+  
+.mapbox iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #FF7111;
+}
+
+.footer-logo{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+
+.footer-logo2{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer-logo3{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo4 img{
+    width: 72px;
+    height: 72px;
+}
+
+.footer-logo5{
+    font-family: 'Didact Gothic';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32.79px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-logo6{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo8{
+    font-family: 'Didact Gothic';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32.79px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+}
+
+.index-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.index-list ul li{
+    list-style: none;
+}
+
+.index-list ul li a{
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+}
+
+
+.logo-bottom{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.logo-bottom .p9 {
+    padding-left: 490px;
+    color: white;
+}
+
+.footer hr{
+    margin: 0 auto;
+    width: 1100px;
+}

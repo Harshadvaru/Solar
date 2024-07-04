@@ -1,0 +1,1208 @@
+body{
+        width: auto;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+}
+
+@font-face {
+    font-family: 'Didact Gothic';
+    src:url('Solar/html/font/Didact_Gothic/DidactGothic-Regular.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/html/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');     
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat1';
+    src: url('/html/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');     
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 10px 0;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+  
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+  
+.logo {
+    width: 122px;
+    height: 92px;
+}
+  
+.logo:hover {
+    color: orange; /* Change this to your desired hover color */
+}
+  
+.nav-list {
+    font-family: 'Didact Gothic';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+  
+.nav-list li {
+    margin-right: 20px;
+}
+  
+.nav-list li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 0;
+    transition: 0.3s ease all;
+}
+  
+.nav-list li a:hover {
+    color: orange; /* Change this to your desired hover color */
+}
+  
+.dropdown {
+    position: relative;
+    z-index: 2;
+}
+  
+.dropdown-toggle {
+    display: block;
+}
+  
+.dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 100%;
+    /* left: 0; */
+    width: 200px;
+    padding: 10PX;
+    display: none;
+    list-style: none;
+}
+  
+.dropdown-menu li {
+    margin: 0;
+    padding: 10px;
+}
+  
+.dropdown-menu li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease all;
+}
+  
+.dropdown-menu li a:hover {
+    background-color: #f2f2f2;
+}
+  
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.Appointment{
+    /* border: 1px solid #000; */
+    background-color: #ff7a3d;
+    color: white;
+    height: 20px;
+    margin: 0px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Montserrat1';
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Appointment a{
+    text-decoration: none;
+    color: white;
+}
+
+.Appointment a:hover {
+    color: rgb(44, 44, 44); /* Change this to your desired hover color */
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+}
+
+.background {
+    background-image: url('/html/img/Frame\ 11.jpg');
+    height: 733px;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text-container {
+    text-align: left;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1111px;
+    margin: 0 auto;
+}
+
+.text-container h1 {
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 70px;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+.text-container p {
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 25px;
+    font-family: 'Montserrat';
+    margin: 20px 0 0;
+}
+
+.text-container h1 span{
+    color: #FF7111;
+}
+
+.ideas{
+    background-color: #FF7111;
+    color: white;
+    height: 20px;
+    margin: 0px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width:470px;
+    text-align: center;
+    font-family: 'Montaserrat1';
+}
+
+.elementaor{
+    position: fixed;
+    right: -84px;
+    bottom: 50%;
+    transform: rotate(90deg);
+    BACKGROUND: #ff7a3d;
+    font-size: 26px;
+    padding: 10px 11px;
+    list-style: none;
+}
+
+.elementaor .text p{
+    color: white;
+    /* padding-top: 50px; */
+    align-items: baseline;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+.line3{
+    border-top: 3px solid #FF7111;
+    width: 50px;
+}
+
+.container2{
+    background-color:  #1E1810;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.container2 .logo{
+   margin: 0 auto;
+   padding-right: 1350px;
+   left: -46PX;
+}
+
+.container3{
+    margin: 0 auto;
+}
+
+.container6{
+    display: flex;
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.container4{
+    width: 600px;
+}
+
+.container4 h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    font-family: "Montserrat";
+    text-align: left;
+}
+
+.container2 h2 span{
+    color: #FF7111; 
+}
+
+.container4 .p2{
+    color: #ddd;
+    font-family: 'Montserrat1';
+    text-align: left;
+    padding-right: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container7{
+    display: flex;
+    width: 500px;
+}
+
+.container9{
+    display: flex;
+    align-items: center
+}
+
+.container11 .p1{
+    color: #f2f2f2;
+    font-family: 'Montserrat1' ;
+    font-size: 24px;
+    padding-left: 15px;
+}
+
+.container10 {
+    text-align: left;
+    color: white;
+    font-family: 'Montserrat1';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container12{
+    display: flex;
+    align-items: center;
+}
+
+.container15{
+    text-align: left;
+    color: white;
+    font-family: 'Montserrat1';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container5 img{
+    padding-bottom: 50px;
+}
+
+.read-more{
+    background-color: #FF7111;
+    color: white;
+    height: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 400px;
+    text-align: center;
+    font-family: 'Montserrat1';
+}
+
+.expert1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expert1 h1{
+    color: white;
+    font-family: 'Montserrat';
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 62.5px;
+    text-align: center;
+}
+
+.expert1 h1 span{
+    color: #FF7111;
+}
+
+.line{
+    border-top: 3px solid white;
+    width: 100px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.expert3{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.expert3 img{
+    padding: 20px;
+}
+
+.expert3 .expert4 img{
+    width: 313px;
+    height: 131px;
+}
+
+.expert3 .expert5 img{
+    width: 453px;
+    height: 131px;
+}
+
+.expert3 .expert6 img{
+    width: 132px;
+    height: 131px;
+}
+
+.expert3 .expert6 img{
+    width: 164px;
+    height: 131px;
+}
+
+.expert3 .expert7 img{
+    width: 164px;
+    height: 131px;
+}
+
+.dots {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.dot {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 0 5px;
+    background-color: #bdc3c7;
+    border-radius: 50%;
+}
+
+.dot.active {
+    background-color: #bdc3c7;
+}
+
+.commercial{
+    margin: 0 auto;
+    padding-top: 50px ;
+}
+
+.commercial1{
+    display: flex;
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.commercial2{
+    color: white;
+    width: 600px;
+}
+
+.line4{
+    border-top: 3px solid #FF7111;
+    width: 50px;
+    padding-bottom: 25px;
+}
+
+.commercial2 h2{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.commercial2 .p3{
+    text-align: left;
+    font-family: 'Montserrat1';
+    padding-left: 40px;
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.commercial2 .p4{
+    text-align: left;
+    font-family: 'Montserrat1';
+    padding-left: 40px;
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Illuminate{
+    background-color: #FF7111;
+    color: white;
+    height: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Montserrat1';
+    margin-left: 40px;
+}
+
+
+.commercial-services{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.commercial-services1{
+    display: flex;
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.commercial-services2{
+    width: 600px;
+}
+
+.commercial-services2 h2{
+    color: white;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+}
+
+.commercial-services2 .p2{
+    color: white;
+    text-align: left;
+    padding-right: 80px;
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0px;
+}
+
+.commercial-services2 .p3{
+    color: white;
+    text-align: left;
+    padding-right: 80px;
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.Residential-services{
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.Residential-services1{
+    display: flex;
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.Residential-services3{
+    width: 600px;
+}
+
+.Residential-services2{
+    width: 600px;
+    padding-bottom: 50px;
+}
+
+.Residential-services3 h2{
+    color: white;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.Residential-services3 .p4{
+    color: white;
+    text-align: left;
+    padding-right: 45px;
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+.Power{
+    background-color: #FF7111;
+    color: white;
+    height: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 350px;
+    text-align: center;
+    font-family: 'Montserrat1';
+    margin-left: 40px;
+}
+
+.line1{
+    border-top: 3px solid white;
+    width: 100px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.Electrical-services{
+    margin: 0 auto !important;
+    padding-top: 50px;
+}
+
+.Electrical-services1{
+    display: flex;
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+}
+
+.Electrical-services3{
+    width: 485px;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.Electrical-services2{
+    width: 485px;
+    padding-bottom: 50px;
+    background-color: white;
+    margin-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.Electrical-services2 h2{
+    color: black;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: left;  
+}
+
+.Electrical-services2 .p5{
+    color: black;
+    text-align: left;
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.Electrical-services3 h2{
+    color: black;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: left;  
+}
+
+.Electrical-services3 .p6{
+    color: black;
+    text-align: left;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.Electrical-services3 .p7{
+    color: black;
+    text-align: left;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.FAQ{
+    margin: 0 auto !important;
+    padding-top: 50px;
+}
+
+.faq-section {
+    width: 1000px;
+    margin: 0 auto !important;
+    text-align: left;
+    justify-content: center !important;
+    padding-bottom: 50px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    font-family: 'Montserrat1';
+}
+
+.faq-question:after {
+    content: '▶'; /* Unicode character for down arrow */
+    float: left;
+    font-size: 25px;
+    padding-right: 10px;
+    color: #FF7111;
+}
+
+.faq-question.active:after {
+    content: '\25B2'; /* Unicode character for up arrow */
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat1';
+}
+
+.faq-answer p span{
+    color: #FF7111;
+}
+
+.footer{
+    background-color: #FF7111;
+}
+
+.footer-logo{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+
+.footer-logo2{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer-logo3{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo4 img{
+    width: 72px;
+    height: 72px;
+}
+
+.footer-logo5{
+    font-family: 'Didact Gothic';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32.79px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-logo6{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo8{
+    font-family: 'Didact Gothic';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32.79px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+}
+
+.index-list ul { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.index-list ul li{
+    list-style: none;
+}
+
+.index-list ul li a{
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+}
+
+
+.logo-bottom{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.logo-bottom .p9 {
+    padding-left: 490px;
+    color: white;
+}
+
+.footer hr{
+    margin: 0 auto;
+    width: 1100px;
+}
+
+@media only screen and (max-width: 760px){
+
+    .navbar{
+        display: none;
+    }
+
+    .body{
+        width: 375px;
+        height: 100%;
+    }
+
+    .container1{
+        width: 375px;
+    }
+
+    .background{
+        background-image: url(/html/img/Frame\ 11.jpg);
+        height: 375px;
+        /* width: 376px; */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .text-container h1 {
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 30px;
+        font-family: 'Montserrat';
+        margin: 0;
+        width: 325px;
+    }
+
+    .text-container{
+        width: 335px;
+        margin: 0px;
+        padding: 15px;
+    }
+
+    .text-container p{
+        font-size: 15px;
+    }
+
+    .text-container .ideas{
+        width: 315px;
+    }
+
+    .container2 .logo {
+        padding-right: 0px;
+        margin: 0;
+    }
+
+    .container6{
+        display: block;
+        width: 375px;
+    }
+
+    .container7{
+        display: block;
+        width: 375px;
+    }
+
+    .container4{
+        width: 345px;
+        padding: 15px;
+    }
+
+    .container4 h2{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: -10px;
+    }
+    
+    .container4 .p2{
+        font-size: 14px;
+        padding-right: 0px;
+    }
+
+    .container5{
+        width: 375px;
+    }
+
+    .container5 img{
+        width: 345px;
+        padding: 15px;
+    }
+
+    .container7{
+        width: 345px;
+    }
+
+    .container8{
+        width: 345px;
+    }
+
+    .container9{
+        width: 350px;
+    }
+
+    .container10{
+        font-size: 14px;
+    }
+
+    .container15{
+        font-size: 14px;
+    }
+
+    .expert1 img{
+        display: none;
+    }
+
+    .expert1 h1{
+        font-size: 20px;
+        padding: 20px;
+        line-height: 25px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .expert3{
+        display: block;
+    }
+
+    .expert6{
+        display: none;
+    }
+
+    .expert7{
+        display: none;
+    }
+
+    .expert5{
+        display: none;
+    }
+
+    .commercial1{
+        display: block;
+    }
+
+    .commercial2{
+        width: 375px;
+    }
+
+    .commercial2 img{
+        width: 345px;
+        padding: 15px;
+    }
+
+    .commercial2 h2{
+        padding: 25px;
+        margin: 0px;
+    }
+
+    .commercial2 .p3{
+        font-size: 14px;
+        margin: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+
+    .commercial2 .p4{
+        font-size: 14px;
+        margin: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+
+    .commercial2 .Illuminate{
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+
+    .commercial-services1{
+        display: block;
+        width: 375px;
+    }
+
+    .commercial-services2 h2{
+        margin-top: 0px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .commercial-services2{
+        width: 86%;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+
+    .commercial-services2 .p3{
+        padding-right: 0px;
+    }
+
+    .commercial-services2 .p2{
+        padding-right: 0px;
+    }
+
+    .Residential-services1{
+        display: block;
+    }
+
+    .Residential-services2{
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+    .Residential-services2 img{
+        width: 345px;
+        padding: 15px;
+    }
+
+    .Residential-services3 {
+        width: 86%;
+        padding: 25px;
+    }
+
+    .Residential-services3 h2{
+        margin: 0px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .Residential-services3 .p4{
+        margin: 0px;
+        padding-right: 0px;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .read-more{
+        width: 290px;
+        font-size: 13px;
+    }
+
+    .Power{
+        width: 290px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: 13px;
+    }
+
+    .expert2{
+        margin: 0px;
+    }
+
+    .Electrical-services {
+        margin: 0 auto !important;
+        padding-top: 0px;
+    }
+
+    .Electrical-services1 {
+        display: block;
+        gap: 20px;
+    }
+
+    .Electrical-services2{
+        width: 295px;
+        margin: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Electrical-services2 h2{
+        font-size: 18px;
+    }
+
+    .Electrical-services2 .p5{
+        font-size: 14px;
+    }
+
+    .Electrical-services3{
+        width: 295px;
+        margin: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Electrical-services3 h2{
+        font-size: 18px;
+    }
+
+    .Electrical-services3 .p5{
+        font-size: 14px;
+    }
+
+    .expert2{
+        font-size: 28px;
+    }
+
+    .FAQ{
+        padding-top: 20px;
+    }
+
+    .faq-section{
+        width: 90%;
+        padding: 15px;
+        margin: 0px;
+    }
+    
+    .faq-question{
+        font-size: 14px;
+        width: 335px;
+        margin: 0 auto;
+        /* text-align: center; */
+        align-items: center;
+    }
+
+    .footer{
+        width: 375px;
+    }
+
+    .footer-logo2{
+        display: block;
+        width: 315px;
+    }
+
+    .footer-logo3{
+        margin-bottom: 10px;
+    }
+
+    .footer hr{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .footer ul{
+        padding: 0px;
+    }
+
+    .logo-bottom{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo-bottom{
+        padding-left: 35px;
+    }
+
+    .logo-bottom .p9{
+        padding: 0px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

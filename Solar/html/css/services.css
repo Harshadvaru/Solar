@@ -1,0 +1,760 @@
+body{
+    width: auto;
+    height: 100%;
+    /* margin: 0%;
+    padding: 0%; */
+}
+
+@font-face {
+    font-family: 'Didact Gothic';
+    src:url('/html/font/Didact_Gothic/DidactGothic-Regular.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/html/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');     
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat1';
+    src: url('/html/font/Montserrat/Montserrat-VariableFont_wght.ttf') format('opentype');     
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 10px 0;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 122px;
+    height: 92px;
+}
+
+.logo:hover {
+    color: orange; /* Change this to your desired hover color */
+}
+
+.nav-list {
+    font-family: 'Didact Gothic';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 0;
+    transition: 0.3s ease all;
+}
+
+.nav-list li a:hover {
+    color: orange; /* Change this to your desired hover color */
+}
+
+.dropdown {
+    position: relative;
+    z-index: 2;
+}
+
+.dropdown-toggle {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 100%;
+    /* left: 0; */
+    width: 200px;
+    padding: 10PX;
+    display: none;
+    list-style: none;
+}
+
+.dropdown-menu li {
+    margin: 0;
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease all;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.Appointment{
+/* border: 1px solid #000; */
+    background-color: #ff7a3d;
+    color: white;
+    height: 20px;
+    margin: 0px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Montserrat1';
+    cursor: pointer;
+}
+
+.Appointment a{
+    text-decoration: none;
+    color: white;
+}
+
+.Appointment a:hover {
+    color: rgb(44, 44, 44); /* Change this to your desired hover color */
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+}
+
+.background {
+    background-image: url('/html/img/Group\ 287\ \(1\).png');
+    /* background-image: url('/html/img/Frame\ 4.png') ; */
+    height: 400px;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text-container {
+    text-align: left;
+    color: white;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 1111px;
+    margin: 0 auto;
+}
+
+.text-container h1 {
+    font-size: 4em;
+    font-weight: 800;
+    line-height: 70px;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+.text-container p {
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 25px;
+    font-family: 'Montserrat';
+    margin: 20px 0 0;
+}
+
+.text-container h1 span{
+    color: #FF7111;
+}
+
+.elementaor{
+    position: fixed;
+    right: -84px;
+    bottom: 50%;
+    transform: rotate(90deg);
+    BACKGROUND: #ff7a3d;
+    font-size: 26px;
+    padding: 10px 11px;
+    list-style: none;
+}
+
+.elementaor .text p{
+    color: white;
+    /* padding-top: 50px; */
+    align-items: baseline;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+.container2{
+    background-color:  #1E1810;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.expert1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expert1 h1{
+    color: white;
+    font-family: 'Montserrat';
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 62.5px;
+    text-align: center;
+}
+
+.expert1 h1 span{
+    color: #FF7111;
+}
+
+.line1{
+    border-top: 3px solid white;
+    width: 50px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.Commercial2{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    width: 600px;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.dependable{
+    margin: 0 auto;
+    padding-top: 50px ;
+}
+
+.dependable1 {
+    display: flex;
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.dependable2{
+    width: 600px;
+    padding-bottom: 50px;
+}
+
+.dependable2 img{
+    width: 510px;
+    height: 100%;
+}
+
+.dependable3{
+    width: 600px;
+}
+
+.dependable3 h2{
+    color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.dependable3 span{
+    color: #FF7111;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+}
+
+.dependable3 .p3{
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+    padding-left: 40px;
+}
+
+.Expert{
+    background-color: #FF7111;
+    color: white;
+    height: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 40px;
+}
+
+.Maintenance{
+    margin: 0 auto;
+    padding-top: 50px ;
+}
+
+.Maintenance1 {
+    display: flex;
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.Maintenance2{
+    width: 600px;
+    padding-bottom: 50px;
+}
+
+.Maintenance2 img{
+    width: 510px;
+    height: 100%;
+}
+
+.Maintenance3{
+    width: 600px;
+}
+
+.Maintenance3 h2{
+    color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+.Maintenance3 span{
+    color: #FF7111;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+}
+
+.Maintenance3 .p3{
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+    padding-left: 45px;
+}
+
+.Maintenance4{
+    background-color: #FF7111;
+    color: white;
+    height: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 45px;
+}
+
+.Electrical2{
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+        width: 600px;
+        font-family: 'Didact Gothic';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 50px;
+}
+
+.Electrical2 .p2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Home-Electrical{
+    margin: 0 auto;
+    padding-top: 50px ;
+}
+
+.Home-Electrical1 {
+    display: flex;
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.Home-Electrical2{
+    width: 600px;
+    padding-bottom: 50px;
+}
+
+.Home-Electrical2 img{
+    width: 510px;
+    height: 100%;
+}
+
+.Home-Electrical3{
+    width: 600px;
+}
+
+.Home-Electrical3 h2{
+    color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.Home-Electrical3 span{
+    color: #FF7111;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+}
+
+.Home-Electrical3 .p4{
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+    padding-left: 40px;
+}
+
+.Home-Electrical4{
+    background-color: #FF7111;
+    color: white;
+    height: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 270px;
+    text-align: center;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 40px;
+}
+
+.line2{
+    border-top: 3px solid #FF7111;
+    width: 50px;
+    padding-bottom: 25px;
+}
+
+.Safety-Inspections{
+    margin: 0 auto;
+    padding-top: 50px ;
+}
+
+.Safety-Inspections1{
+    display: flex;
+    margin: 0 auto !important;
+    text-align: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.Safety-Inspections2{
+    width: 600px;
+    padding-bottom: 50px;
+}
+
+.Safety-Inspections5 img{
+    width: 510px;
+    height: 100%;
+}
+
+.Safety-Inspections3{
+    width: 600px;
+}
+
+.Safety-Inspections3 h2{
+    color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+}
+
+.Safety-Inspections3 span{
+    color: #FF7111;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+}
+
+.Safety-Inspections3 .p5{
+    font-family: Didact Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0 auto;
+    color: white;
+    padding-right: 75px;
+}
+
+.Safety-Inspections4{
+    background-color: #FF7111;
+    color: white;
+    height: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.expert1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expert1 h1{
+    color: white;
+    font-family: 'Montserrat';
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 62.5px;
+    text-align: center;
+}
+
+.expert1 h1 span{
+    color: #FF7111;
+}
+
+
+.FAQ{
+    margin: 0 auto !important;
+    padding-top: 0px;
+}
+
+.faq-section {
+    width: 1000px;
+    margin: 0 auto !important;
+    text-align: left;
+    justify-content: center !important;
+    padding-bottom: 50px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    font-family: 'Montserrat1';
+}
+
+.faq-question:after {
+    content: '▶'; /* Unicode character for down arrow */
+    float: left;
+    font-size: 25px;
+    padding-right: 10px;
+    color: #FF7111;
+}
+
+.faq-question.active:after {
+    content: '\25B2'; /* Unicode character for up arrow */
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat1';
+}
+
+.faq-answer p span{
+    color: #FF7111;
+}
+
+.footer{
+    background-color: #FF7111;
+}
+
+.footer-logo{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+
+.footer-logo2{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footer-logo3{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo4 img{
+    width: 72px;
+    height: 72px;
+}
+
+.footer-logo5{
+    font-family: 'Didact Gothic';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32.79px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-logo6{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo8{
+    font-family: 'Didact Gothic';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32.79px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+}
+
+.index-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.index-list ul li{
+    list-style: none;
+}
+
+.index-list ul li a{
+    font-family: 'Didact Gothic';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+}
+
+
+.logo-bottom{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.logo-bottom .p9 {
+    padding-left: 490px;
+    color: white;
+}
+
+
+.footer hr{
+    margin: 0 auto;
+    width: 1100px;
+}
